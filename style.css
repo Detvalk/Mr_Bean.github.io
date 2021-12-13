@@ -1,0 +1,110 @@
+:root {
+  --background-primary: rgb(230, 230, 230);
+  --highlight-primary: #4682B4;
+}
+
+body {
+
+}
+
+.title-container {
+      height: 40vh;
+      background-color: var(--background-primary);
+}
+
+.title-hello {
+    font-family: 'Corinthia', cursive;
+    font-size: 10rem;
+    font-weight: 500;
+}
+
+.title-name {
+  color: var(--background-primary);
+  background-color: var(--highlight-primary);
+
+  font-family: 'Corinthia', cursive;
+  font-size:10rem;
+  font-weight: 500;
+
+  position: relative;
+  top: -2.5rem;
+}
+
+.title-tag{
+  font-family: 'Corinthia', cursive;
+  font-size: 4rem;
+  font-weight: 500;
+
+  position: relative;
+  top: -2.5rem;
+}
+
+.about-me-container{
+  width: 80vw;
+
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+
+  margin-left: 10vw;
+
+  background-color: var(--highlight-primary);
+}
+
+.about-me-image {
+  width: auto;
+  height: 100%;
+
+  border-radius: 100%;
+
+  box-shadow: 10px 5px 10px black;
+}
+
+.about-me-text {
+  color: #FAEBD7;
+
+  font-size: 5rem;
+  font-family: 'Corinthia', cursive;
+
+  text-align: left;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+
+.contact-me-container {
+  margin-top: 10vh;
+
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Corinthia', cursive;
+}
+
+.contact-me-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.achievements-container {
+  width: 80vw;
+  margin-left: 10vw;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.achievements {
+  font-size:4rem;
+  font-family: 'Corinthia', cursive;
+}
+
+.achivements-title {
+  font-size: 10rem;
+  font-weight: 700;
+  font-family: 'Corinthia', cursive;
+
+}
+
+.achievements-image {
+  width: 40vw;
+  height: 20vw;
+
+}
